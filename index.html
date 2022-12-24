@@ -12,311 +12,386 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
   </head>
-  <body>
+  <body class="bg-black antialiased">
 
-    <div class="center mw8 ph3 pv4 white">
-      <div class="ph2 flex-l justify-between items-center">
-        <div class="w-100 w-50-l tc tl-l ph2 f5">
-          <a href="#about" class="white link dim mr3">About</a>
-          <a href="#hikes" class="white link dim mr3">Hikes</a>
-          <a href="#partners" class="white link dim">Partners</a>
+    <div class="p-8 md:p-12 lg:px-24 mx-auto bg-black text-white" style="max-width: 90rem;">
+      <div class="p-0 sm:px-8 md:px-12 flex justify-between items-center">
+
+        <a href="./">
+          <img src="./assets/logo.png" class="h-16 w-auto" alt="Movement Spontaneous Logo">
+        </a>
+        
+        <div class="flex space-x-8">
+          <a href="">Hikes</a>
+          <a href="">Team</a>
+          <a href="">Parthers</a>
         </div>
-        <div class="w-100 w-auto-l flex-auto-l tc">
-          <img src="./assets/logo.png" style="width:128px; height:128px;" alt="Movement Spontaneous Logo">
+  
+      </div>
+    </div>
+
+    <div class="px-8 md:px-12 lg:px-24 mx-auto bg-black text-white" style="max-width: 90rem;">
+      <div class="flex flex-col relative">
+
+        <div class="absolute w-full inset-x-0 top-24 md:top-48 lg:top-64 px-4 md:px-12 lg:px-24 text-center z-20">
+          <h1 class="mx-auto max-w-md">Night hiking and outdoor adventures</h1>
         </div>
-        <div class="w-100 w-50-l ph2 tc tr-l">
-          <a href="https://www.facebook.com/letshike.co" target="_blank" class="white link dim mr3"><img src="./assets/icn/16-sm-fb.svg" alt=""></a>
-          <a href="https://www.instagram.com/letshike.co/" target="_blank" class="white link dim"><img src="./assets/icn/16-sm-ig.svg" alt=""></a>
+
+        <video class="rounded opacity-60 sticky top-8 md:top-12 lg:top-24 w-full h-auto" autoplay muted loop poster="">
+          <source src="./assets/header-video.mp4" type="video/mp4">
+        </video>
+
+        <div class="z-20 px-4 md:px-12 lg:px-24">
+          <div class="text-center max-w-md mx-auto">
+            <p class="text-lg md:text-2xl my-48 md:my-80">We organise regular outdoor activities, collect experiences and train together for international expeditions, kayaking trips and mountain climbing challenges</p>
+            <p class="hidden font-bold text-2xl md:text-4xl mb-4">12706 km</p>
+            <p class="hidden text-lg md:text-2xl mb-48 md:mb-80">That’s how much we have hiked since 2015 when first event was organised</p>
+            </div>
         </div>
       </div>
     </div>
 
-    <div class="header-video center mw9 pv5 pv6-ns pv7-l white">
-      <h1 class="center tc mw6 ph3 f1 f1-l  fw7">Night hiking and outdoor adventures</h1>
-      <video autoplay muted loop poster="">
-        <source src="./assets/header-video.mp4" type="video/mp4">
-      </video>
+    <div class="px-8 py-16 md:px-12 md:py-24 lg:px-24 lg:py-32 mx-auto bg-black text-white" style="max-width: 90rem;">
+      <div class="p-0 sm:px-8 md:px-12">
+
+        <div class="max-w-xl">
+          <h2>Featured hikes</h2>
+          <p>As part of our team training we organise outdoor hikes, kayaking trips and climbing trainings every month. However not all our events are publically announced. Collect badges by Movement Spontaneous and get access to MS calendar and more experiences.</p>
+        </div>
+
+      </div>
     </div>
 
-    <div id="about" class="center mw9 bg-white">
-      <div class="center mw8 ph3 pv5">
-        <div class="ph2 flex-l">
-          <div class="w-100 w-60-l measure-wide ph2 f4">
-            <h1 class="f2 fw7">Our philosophy</h1>
-            <p class="lh-copy o-80">Jobs fill your pocket, adventures fill your soul! Movement pioneers the art of night hiking, a new type of adventure for a new type of explorer! We organise regular outdoor activities, collect experiences and train together for international expeditions, kayaking trips and mountain climbing challenges.</p>
-            <p class="lh-copy o-80">We believe that although in night time your sight is limited, it makes you focus more on yourself and people around you. The real voyage of discovery consists not in seeking new landscapes but in having new eyes.</p>
-          </div>
-          <div class="w-100 w-40-l mt4 ml4-l ph2">
-            <div class="flex flex-wrap bg-near-white pa3">
-              <div class="w-50 w-25-m pa3 tc">
-                <h2 class="f2 fw5 mt0 mb1">60</h2>
-                <p class="mv0 f5 fw5 o-60">events<br>organised</p>
+    <div class=" mx-auto bg-black text-white" style="max-width: 90rem;">
+      <div class="relateive">
+
+        <div class="flex overflow-x-scroll hide-scrollbar space-x-4 px-8 md:px-12 lg:px-24">
+
+          <div class="w-3/4 sm:1/2 md:w-1/3 h-[24rem] lg:h-[32rem] flex-none rounded cursor-pointer bg-cover bg-center bg-black" style="background-image: url('./assets/img/hike-bg-1.jpg');">
+            <div class="flex flex-col justify-between h-full hover:backdrop-blur-xl transition duration-75 p-4 rounded group">
+              <h4>Hike title</h4>
+              <div class="flex justify-between items-end transition opacity-0 group-hover:opacity-100">
+                <div>
+                  <span>Location</span>
+                  <br>
+                  <span>Date</span>
+                </div>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 4L8.84645 6.98858L17.0114 15.1536L20 4ZM4.70711 20.7071L14.3431 11.0711L12.9289 9.65685L3.29289 19.2929L4.70711 20.7071Z" fill="white"/>
+                </svg>  
               </div>
-              <div class="w-50 w-25-m pa3 tc">
-                <h2 class="f2 fw5 mt0 mb1">1745</h2>
-                <p class="mv0 f5 fw5 o-60">people<br>attended</p>
+            </div>
+          </div>
+          <div class="w-3/4 sm:1/2 md:w-1/3 h-[24rem] lg:h-[32rem] flex-none rounded cursor-pointer bg-cover bg-center bg-black" style="background-image: url('./assets/img/hike-bg-2.jpg');">
+            <div class="flex flex-col justify-between h-full hover:backdrop-blur-xl transition duration-75 p-4 rounded group">
+              <h4>Hike title</h4>
+              <div class="flex justify-between items-end transition opacity-0 group-hover:opacity-100">
+                <div>
+                  <span>Location</span>
+                  <br>
+                  <span>Date</span>
+                </div>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 4L8.84645 6.98858L17.0114 15.1536L20 4ZM4.70711 20.7071L14.3431 11.0711L12.9289 9.65685L3.29289 19.2929L4.70711 20.7071Z" fill="white"/>
+                </svg>  
               </div>
-              <div class="w-50 w-25-m pa3 tc">
-                <h2 class="f2 fw5 mt0 mb1">2228</h2>
-                <p class="mv0 f5 fw5 o-60">kilometers<br>hiked</p>
+            </div>
+          </div>
+          <div class="w-3/4 sm:1/2 md:w-1/3 h-[24rem] lg:h-[32rem] flex-none rounded cursor-pointer bg-cover bg-center bg-black" style="background-image: url('./assets/img/hike-bg-3.jpg');">
+            <div class="flex flex-col justify-between h-full hover:backdrop-blur-xl transition duration-75 p-4 rounded group">
+              <h4>Hike title</h4>
+              <div class="flex justify-between items-end transition opacity-0 group-hover:opacity-100">
+                <div >
+                  <span>Location</span>
+                  <br>
+                  <span>Date</span>
+                </div>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 4L8.84645 6.98858L17.0114 15.1536L20 4ZM4.70711 20.7071L14.3431 11.0711L12.9289 9.65685L3.29289 19.2929L4.70711 20.7071Z" fill="white"/>
+                </svg>  
               </div>
-              <div class="w-50 w-25-m pa3 tc">
-                <h2 class="f2 fw5 mt0 mb1">119</h2>
-                <p class="mv0 f5 fw5 o-60">team<br>members</p>
+            </div>
+          </div>
+          <div class="w-3/4 sm:1/2 md:w-1/3 h-[24rem] lg:h-[32rem] flex-none rounded cursor-pointer bg-cover bg-center bg-black" style="background-image: url('./assets/img/hike-bg-4.jpg');">
+            <div class="flex flex-col justify-between h-full hover:backdrop-blur-xl transition duration-75 p-4 rounded group">
+              <h4>Hike title</h4>
+              <div class="flex justify-between items-end transition opacity-0 group-hover:opacity-100">
+                <div>
+                  <span>Location</span>
+                  <br>
+                  <span>Date</span>
+                </div>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 4L8.84645 6.98858L17.0114 15.1536L20 4ZM4.70711 20.7071L14.3431 11.0711L12.9289 9.65685L3.29289 19.2929L4.70711 20.7071Z" fill="white"/>
+                </svg>  
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
+          <div class="w-3/4 sm:1/2 md:w-1/3 h-[24rem] lg:h-[32rem] flex-none rounded cursor-pointer bg-cover bg-center bg-black" style="background-image: url('./assets/img/hike-bg-1.jpg');">
+            <div class="flex flex-col justify-between h-full hover:backdrop-blur-xl transition duration-75 p-4 rounded group">
+              <h4>Hike title</h4>
+              <div class="flex justify-between items-end transition opacity-0 group-hover:opacity-100">
+                <div>
+                  <span>Location</span>
+                  <br>
+                  <span>Date</span>
+                </div>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 4L8.84645 6.98858L17.0114 15.1536L20 4ZM4.70711 20.7071L14.3431 11.0711L12.9289 9.65685L3.29289 19.2929L4.70711 20.7071Z" fill="white"/>
+                </svg>  
+              </div>
+            </div>
+          </div>
 
-    <div id="hikes" class="center mw9 bg-near-white">
-      <div class="center mw8 ph3 pv5">
-        <div class="ph2">
-          <div class="measure-wide ph2 f4">
-            <h1 class="f2 fw7">Some of our hikes</h1>
-            <p class="lh-copy o-80">As part of our team training we organise outdoor hikes, kayaking trips and climbing trainings every month. However not all our events are publically announced. Collect badges by Movement Spontaneous and get access to MS calendar and more experiences.</p>
-          </div>
         </div>
-        <div class="mt4 ph2 flex flex-wrap">
-          <div class="pa2 w-100 w-50-ns w-third-l">
-            <a href="" target="_blank" class="thumb-hover link h5 flex flex-wrap pa3 white" style="background-image:url('./assets/img/hike-pic-1.jpg');">
-              <span class="w-100 self-start mt0 f4 fw5">Winter minihike</span>
-              <span class="w-100 self-end mb0 f5 o-60 lh-copy">Night hike to Sabile<br>
-                Latvia 16.12-17.12.2017</span>
-            </a>
-          </div>
-          <div class="pa2 w-100 w-50-ns w-third-l">
-            <a href="" target="_blank" class="thumb-hover link h5 flex flex-wrap pa3 white" style="background-image:url('./assets/img/hike-pic-1.jpg');">
-              <span class="w-100 self-start mt0 f4 fw5">Winter minihike</span>
-              <span class="w-100 self-end mb0 f5 o-60 lh-copy">Night hike to Sabile<br>
-                Latvia 16.12-17.12.2017</span>
-            </a>
-          </div>
-          <div class="pa2 w-100 w-50-ns w-third-l">
-            <a href="" target="_blank" class="thumb-hover link h5 flex flex-wrap pa3 white" style="background-image:url('./assets/img/hike-pic-1.jpg');">
-              <span class="w-100 self-start mt0 f4 fw5">Winter minihike</span>
-              <span class="w-100 self-end mb0 f5 o-60 lh-copy">Night hike to Sabile<br>
-                Latvia 16.12-17.12.2017</span>
-            </a>
-          </div>
-          <div class="pa2 w-100 w-50-ns w-third-l">
-            <a href="" target="_blank" class="thumb-hover link h5 flex flex-wrap pa3 white" style="background-image:url('./assets/img/hike-pic-1.jpg');">
-              <span class="w-100 self-start mt0 f4 fw5">Winter minihike</span>
-              <span class="w-100 self-end mb0 f5 o-60 lh-copy">Night hike to Sabile<br>
-                Latvia 16.12-17.12.2017</span>
-            </a>
-          </div>
-          <div class="pa2 w-100 w-50-ns w-third-l">
-            <a href="" target="_blank" class="thumb-hover link h5 flex flex-wrap pa3 white" style="background-image:url('./assets/img/hike-pic-1.jpg');">
-              <span class="w-100 self-start mt0 f4 fw5">Winter minihike</span>
-              <span class="w-100 self-end mb0 f5 o-60 lh-copy">Night hike to Sabile<br>
-                Latvia 16.12-17.12.2017</span>
-            </a>
-          </div>
-          <div class="pa2 w-100 w-50-ns w-third-l">
-            <a href="" target="_blank" class="thumb-hover link h5 flex flex-wrap pa3 white" style="background-image:url('./assets/img/hike-pic-1.jpg');">
-              <span class="w-100 self-start mt0 f4 fw5">Winter minihike</span>
-              <span class="w-100 self-end mb0 f5 o-60 lh-copy">Night hike to Sabile<br>
-                Latvia 16.12-17.12.2017</span>
-            </a>
-          </div>
-        </div>
-        <div class="mt5 mb4 ph2 flex-l">
-          <div class="ph2 f4 measure-wide">
-            <h2 class="f4 mb2 fw6">Upcoming adventures</h2>
-            <p class="mt0 lh-copy o-60">All our upcoming public events are announced on Facebook, join our community and don’t miss out on the next adventure.</p>
-            <a href="https://www.facebook.com/letshike.co" target="_blank" class="link dim" style="color:#3b5998;">Join our Facebook group</a>
-          </div>
-          <div class="mt5 mt0-l ph2 f4 measure-wide">
-            <h2 class="f4 mb2 fw6">More hikes</h2>
-            <p class="mt0 lh-copy o-60">All our past events are archived on Movement Spontaneous Flickr account. Feel free to check them out and get inspired.</p>
-            <a href="https://www.flickr.com/photos/spontanais/" target="_blank" class="link dim" style="color:#0063dc;">Check out photos on Flickr</a>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="center mw9">
-      <iframe class="v-btm" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2233523.430543365!2d22.301940129142356!3d56.86009003618296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e930677b8a9afd%3A0xcfcd68f2fc10!2sLatvia!5e0!3m2!1sen!2slv!4v1546891008430" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
+        <div class="px-8 mt-16 md:px-12 md:mt-24 lg:px-24 lg:mt-32 mx-auto bg-black" style="max-width: 90rem;">
+          <div class="h-px bg-white"></div>
+        </div>
 
-    <div id="team" class="center mw9 bg-white">
-      <div class="center mw8 ph3 pv5">
-        <div class="ph2">
-          <div class="measure-wide ph2 f4">
-            <h1 class="f2 fw7">Team spontaneous</h1>
-            <p class="lh-copy o-80">Group of like-minded people aimed to make your life more adventurous. Do you feel like joining our team? Just send us an e-mail and we will come back to you as soon as we can.</p>
+        <div class="px-8 py-16 md:px-12 md:py-24 lg:px-24 lg:py-32 mx-auto bg-black text-white" style="max-width: 90rem;">
+          <div class="p-0 sm:px-8 md:px-12 grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24">
+    
+            <div class="max-w-xl">
+              <h4>Upcoming hikes</h4>
+              <p>All our upcoming public events are announced on Facebook, join our community and don’t miss out on the next adventure.</p>
+              <p><a href="" target="_blank" class="border-b border-white/60 hover:border-none">Join our Facebook group</a></p>
+            </div>
+            
+            <div class="max-w-xl">
+              <h4>More hikes</h4>
+              <p>All our past events are archived on Movement Spontaneous Flickr account. Feel free to check them out and get inspired.</p>
+              <p><a href="" target="_blank" class="border-b border-white/60 hover:border-none">Check out photos on Flickr</a></p>
+            </div>
+    
           </div>
         </div>
-        <div class="mt4 ph2 flex flex-wrap">
-          <div class="pa2 mb4 w-100 w-third-ns w-25-l flex">
-            <img class="flex-none mr3 br-100" src="./assets/img/team-1.jpg" style="width:64px; height:64px;" alt="">
-            <div class="w-100">
-              <h2 class="f4 mt2 mb0 fw5">Matijs Babris</h2>
-              <p class="mv0 f5 lh-copy o-60">Co-founder</p>
-            </div>
-          </div>
-          <div class="pa2 mb4 w-100 w-third-ns w-25-l flex">
-            <img class="flex-none mr3 br-100" src="./assets/img/team-1.jpg" style="width:64px; height:64px;" alt="">
-            <div class="w-100">
-              <h2 class="f4 mt2 mb0 fw5">Matijs Babris</h2>
-              <p class="mv0 f5 lh-copy o-60">Co-founder</p>
-            </div>
-          </div>
-          <div class="pa2 mb4 w-100 w-third-ns w-25-l flex">
-            <img class="flex-none mr3 br-100" src="./assets/img/team-1.jpg" style="width:64px; height:64px;" alt="">
-            <div class="w-100">
-              <h2 class="f4 mt2 mb0 fw5">Matijs Babris</h2>
-              <p class="mv0 f5 lh-copy o-60">Co-founder</p>
-            </div>
-          </div>
-          <div class="pa2 mb4 w-100 w-third-ns w-25-l flex">
-            <img class="flex-none mr3 br-100" src="./assets/img/team-1.jpg" style="width:64px; height:64px;" alt="">
-            <div class="w-100">
-              <h2 class="f4 mt2 mb0 fw5">Matijs Babris</h2>
-              <p class="mv0 f5 lh-copy o-60">Co-founder</p>
-            </div>
-          </div>
-          <div class="pa2 mb4 w-100 w-third-ns w-25-l flex">
-            <img class="flex-none mr3 br-100" src="./assets/img/team-1.jpg" style="width:64px; height:64px;" alt="">
-            <div class="w-100">
-              <h2 class="f4 mt2 mb0 fw5">Matijs Babris</h2>
-              <p class="mv0 f5 lh-copy o-60">Co-founder</p>
-            </div>
-          </div>
-          <div class="pa2 mb4 w-100 w-third-ns w-25-l flex">
-            <img class="flex-none mr3 br-100" src="./assets/img/team-1.jpg" style="width:64px; height:64px;" alt="">
-            <div class="w-100">
-              <h2 class="f4 mt2 mb0 fw5">Matijs Babris</h2>
-              <p class="mv0 f5 lh-copy o-60">Co-founder</p>
-            </div>
-          </div>
-          <div class="pa2 mb4 w-100 w-third-ns w-25-l flex">
-            <img class="flex-none mr3 br-100" src="./assets/img/team-1.jpg" style="width:64px; height:64px;" alt="">
-            <div class="w-100">
-              <h2 class="f4 mt2 mb0 fw5">Matijs Babris</h2>
-              <p class="mv0 f5 lh-copy o-60">Co-founder</p>
-            </div>
-          </div>
-          <div class="pa2 mb4 w-100 w-third-ns w-25-l flex">
-            <img class="flex-none mr3 br-100" src="./assets/img/team-1.jpg" style="width:64px; height:64px;" alt="">
-            <div class="w-100">
-              <h2 class="f4 mt2 mb0 fw5">Matijs Babris</h2>
-              <p class="mv0 f5 lh-copy o-60">Co-founder</p>
-            </div>
-          </div>
-          <div class="pa2 mb4 w-100 w-third-ns w-25-l flex">
-            <img class="flex-none mr3 br-100" src="./assets/img/team-1.jpg" style="width:64px; height:64px;" alt="">
-            <div class="w-100">
-              <h2 class="f4 mt2 mb0 fw5">Matijs Babris</h2>
-              <p class="mv0 f5 lh-copy o-60">Co-founder</p>
-            </div>
-          </div>
-          <div class="pa2 mb4 w-100 w-third-ns w-25-l flex">
-            <img class="flex-none mr3 br-100" src="./assets/img/team-1.jpg" style="width:64px; height:64px;" alt="">
-            <div class="w-100">
-              <h2 class="f4 mt2 mb0 fw5">Matijs Babris</h2>
-              <p class="mv0 f5 lh-copy o-60">Co-founder</p>
-            </div>
-          </div>
-          <div class="pa2 mb4 w-100 w-third-ns w-25-l flex">
-            <img class="flex-none mr3 br-100" src="./assets/img/team-1.jpg" style="width:64px; height:64px;" alt="">
-            <div class="w-100">
-              <h2 class="f4 mt2 mb0 fw5">Matijs Babris</h2>
-              <p class="mv0 f5 lh-copy o-60">Co-founder</p>
-            </div>
-          </div>
-          <div class="pa2 mb4 w-100 w-third-ns w-25-l flex">
-            <img class="flex-none mr3 br-100" src="./assets/img/team-1.jpg" style="width:64px; height:64px;" alt="">
-            <div class="w-100">
-              <h2 class="f4 mt2 mb0 fw5">Matijs Babris</h2>
-              <p class="mv0 f5 lh-copy o-60">Co-founder</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-
-    <div id="partners" class="center mw9 bg-black white">
-      <div class="center mw8 ph3 pv5">
-        <div class="ph2">
-          <div class="measure-wide ph2 f4">
-            <h1 class="f2 fw7">Our partners and friends</h1>
-            <p class="lh-copy o-80">We are a non-profit organisation and most of our events are free to attend, funded from donations and partnerships with great companies to inspire an active, healthy and exploration driven future for our society. Let us know if you would like to become our partner.</p>
-          </div>
+        <div class="w-full h-96 bg-slate-900 white flex items-center justify-center opacity-60">
+          map placeholder
         </div>
-        <div class="mt4 ph2 flex flex-wrap">
-          <div class="pa2 w-50 w-third-ns w-20-l">
-            <img class="center" src="./assets/img/partner-1.png" style="min-width:64px; min-height:64px;" alt="">
-          </div>
-          <div class="pa2 w-50 w-third-ns w-20-l">
-            <img class="center" src="./assets/img/partner-1.png" style="min-width:64px; min-height:64px;" alt="">
-          </div>
-          <div class="pa2 w-50 w-third-ns w-20-l">
-            <img class="center" src="./assets/img/partner-1.png" style="min-width:64px; min-height:64px;" alt="">
-          </div>
-          <div class="pa2 w-50 w-third-ns w-20-l">
-            <img class="center" src="./assets/img/partner-1.png" style="min-width:64px; min-height:64px;" alt="">
-          </div>
-          <div class="pa2 w-50 w-third-ns w-20-l">
-            <img class="center" src="./assets/img/partner-1.png" style="min-width:64px; min-height:64px;" alt="">
-          </div>
-          <div class="pa2 w-50 w-third-ns w-20-l">
-            <img class="center" src="./assets/img/partner-1.png" style="min-width:64px; min-height:64px;" alt="">
-          </div>
-          <div class="pa2 w-50 w-third-ns w-20-l">
-            <img class="center" src="./assets/img/partner-1.png" style="min-width:64px; min-height:64px;" alt="">
-          </div>
-          <div class="pa2 w-50 w-third-ns w-20-l">
-            <img class="center" src="./assets/img/partner-1.png" style="min-width:64px; min-height:64px;" alt="">
-          </div>
-          <div class="pa2 w-50 w-third-ns w-20-l">
-            <img class="center" src="./assets/img/partner-1.png" style="min-width:64px; min-height:64px;" alt="">
-          </div>
-          <div class="pa2 w-50 w-third-ns w-20-l">
-            <img class="center" src="./assets/img/partner-1.png" style="min-width:64px; min-height:64px;" alt="">
-          </div>
-          <div class="pa2 w-50 w-third-ns w-20-l">
-            <img class="center" src="./assets/img/partner-1.png" style="min-width:64px; min-height:64px;" alt="">
-          </div>
-          <div class="pa2 w-50 w-third-ns w-20-l">
-            <img class="center" src="./assets/img/partner-1.png" style="min-width:64px; min-height:64px;" alt="">
-          </div>
-          <div class="pa2 w-50 w-third-ns w-20-l">
-            <img class="center" src="./assets/img/partner-1.png" style="min-width:64px; min-height:64px;" alt="">
-          </div>
-          <div class="pa2 w-50 w-third-ns w-20-l">
-            <img class="center" src="./assets/img/partner-1.png" style="min-width:64px; min-height:64px;" alt="">
-          </div>
-          <div class="pa2 w-50 w-third-ns w-20-l">
-            <img class="center" src="./assets/img/partner-1.png" style="min-width:64px; min-height:64px;" alt="">
-          </div>
-        </div>
-        <div class="ph2 mt5">
-          <div class="measure-wide ph2 f4">
-            <h1 class="f2 fw7">Support us</h1>
-            <p class="lh-copy o-80">Help us continue providing free to join night hiking events and expeditions with funding for emergency radios, safety tools, glowsticks, event badges, maps and other outdoor equipment.</p>
-          </div>
-        </div>
-        <div class="ph2">
-          <div class="mt5 pt5 ph2 f4 flex justify-between bt b-white">
-            <div class="ph2 f5">
-              <a href="mailto:info@letshike.co" class="db dib-l white link dim mr3">info@letshike.co</a>
-              <a href="tel:+37125925972" class="db dib-l white link dim mt2 mt0-l mr3">+371 2592 5972</a>
+    
+        <div class="px-8 py-16 md:px-12 md:py-24 lg:px-24 lg:py-32 mx-auto bg-white text-black" style="max-width: 90rem;">
+          <div class="p-0 sm:px-8 md:px-12">
+    
+            <div class="max-w-xl">
+              <h2>Team Spontaneous</h2>
+              <p>Group of like-minded people aimed to make your life more adventurous. Do you feel like joining our team? Just send us an e-mail and we will come back to you as soon as we can.</p>
             </div>
-            <div class="ph2 tr">
-              <a href="https://www.facebook.com/letshike.co" target="_blank" class="white link dim mr3"><img src="./assets/icn/16-sm-fb.svg" alt=""></a>
-              <a href="https://www.instagram.com/letshike.co/" target="_blank" class="white link dim mr3"><img src="./assets/icn/16-sm-ig.svg" alt=""></a>
-              <a href="https://www.youtube.com/channel/UCYHzbhk0uTrY_dhbDweuFFA" target="_blank" class="white link dim mr3"><img src="./assets/icn/16-sm-yt.svg" alt=""></a>
-              <a href="https://www.flickr.com/photos/spontanais/" target="_blank" class="white link dim"><img src="./assets/icn/16-sm-fl.svg" alt=""></a>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-8 sm:gap-8 mt-16 md:mt-24 lg:mt-32">
+
+              <div class="flex space-x-2 sm:space-x-4 items-center">
+                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <div class="">
+                  <span class="font-bold">Full Name</span>
+                  <br>
+                  <span class="opacity-60">47 hikes</span>
+                </div>
+              </div>
+              <div class="flex space-x-2 sm:space-x-4 items-center">
+                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <div class="">
+                  <span class="font-bold">Full Name</span>
+                  <br>
+                  <span class="opacity-60">47 hikes</span>
+                </div>
+              </div>
+              <div class="flex space-x-2 sm:space-x-4 items-center">
+                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <div class="">
+                  <span class="font-bold">Full Name</span>
+                  <br>
+                  <span class="opacity-60">47 hikes</span>
+                </div>
+              </div>
+              <div class="flex space-x-2 sm:space-x-4 items-center">
+                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <div class="">
+                  <span class="font-bold">Full Name</span>
+                  <br>
+                  <span class="opacity-60">47 hikes</span>
+                </div>
+              </div>
+              <div class="flex space-x-2 sm:space-x-4 items-center">
+                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <div class="">
+                  <span class="font-bold">Full Name</span>
+                  <br>
+                  <span class="opacity-60">47 hikes</span>
+                </div>
+              </div>
+              <div class="flex space-x-2 sm:space-x-4 items-center">
+                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <div class="">
+                  <span class="font-bold">Full Name</span>
+                  <br>
+                  <span class="opacity-60">47 hikes</span>
+                </div>
+              </div>
+              <div class="flex space-x-2 sm:space-x-4 items-center">
+                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <div class="">
+                  <span class="font-bold">Full Name</span>
+                  <br>
+                  <span class="opacity-60">47 hikes</span>
+                </div>
+              </div>
+              <div class="flex space-x-2 sm:space-x-4 items-center">
+                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <div class="">
+                  <span class="font-bold">Full Name</span>
+                  <br>
+                  <span class="opacity-60">47 hikes</span>
+                </div>
+              </div>
+              <div class="flex space-x-2 sm:space-x-4 items-center">
+                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <div class="">
+                  <span class="font-bold">Full Name</span>
+                  <br>
+                  <span class="opacity-60">47 hikes</span>
+                </div>
+              </div>
+              <div class="flex space-x-2 sm:space-x-4 items-center">
+                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <div class="">
+                  <span class="font-bold">Full Name</span>
+                  <br>
+                  <span class="opacity-60">47 hikes</span>
+                </div>
+              </div>
+              <div class="flex space-x-2 sm:space-x-4 items-center">
+                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <div class="">
+                  <span class="font-bold">Full Name</span>
+                  <br>
+                  <span class="opacity-60">47 hikes</span>
+                </div>
+              </div>
+              <div class="flex space-x-2 sm:space-x-4 items-center">
+                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <div class="">
+                  <span class="font-bold">Full Name</span>
+                  <br>
+                  <span class="opacity-60">47 hikes</span>
+                </div>
+              </div>
+
             </div>
+    
           </div>
         </div>
-      </div>
-    </div>
+    
+        <div class="px-8 py-16 md:px-12 md:py-24 lg:px-24 lg:py-32 mx-auto bg-black text-white" style="max-width: 90rem;">
+          <div class="p-0 sm:px-8 md:px-12">
+    
+            <div class="max-w-xl">
+              <h2>Our partners and friends</h2>
+              <p>We have partnerships with great companies to inspire an active, healthy and exploration driven future for our society. Let us know if you would like to become our partner.</p>
+            </div>
+    
+            <div class="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 mt-16 md:mt-24 lg:mt-32">
+              <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
+                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+              </div>
+              <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
+                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+              </div>
+              <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
+                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+              </div>
+              <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
+                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+              </div>
+              <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
+                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+              </div>
+              <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
+                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+              </div>
+              <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
+                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+              </div>
+              <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
+                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+              </div>
+              <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
+                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+              </div>
+              <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
+                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+              </div>
+              <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
+                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+              </div>
+              <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
+                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+              </div>
+              <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
+                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+              </div>
+              <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
+                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+              </div>
+              <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
+                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+              </div>
+            </div>
 
+            <div class="max-w-xl mt-16 md:mt-24 lg:mt-32">
+              <h2>Support us</h2>
+              <p>Help us continue providing night hiking events and expeditions with funding for emergency radios, safety tools, glowsticks, event badges, maps and other outdoor equipment. (include instruction for how to buy)</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-16 md:mt-24 lg:mt-32">
+              <div>
+                <img src="./assets/product/1.jpg" alt="" class="w-full h-auto rounded">
+                <p>Purchase t-shirt. Available colors and sizes.</p>
+              </div>
+              <div>
+                <img src="./assets/product/2.jpg" alt="" class="w-full h-auto rounded">
+                <p>Purchase hike map. Available options.</p>
+              </div>
+            </div>  
+            
+          </div>
+        </div>
+
+        <div class="px-8 md:px-12 lg:px-24 mx-auto bg-black" style="max-width: 90rem;">
+          <div class="h-px bg-white"></div>
+        </div>
+
+        <div class="p-8 md:px-12 lg:px-24 mt-16 mx-auto bg-black text-white" style="max-width: 90rem;">
+          <div class="p-0 sm:px-8 md:px-12 flex justify-between items-center flex-col sm:flex-row space-y-16 sm:space-y-0 sm:space-x-8">
+    
+            <div class="flex space-x-8">
+              <a href="">
+                <img src="./assets/icn/facebook.svg" class="" alt="">
+              </a>
+              <a href="">
+                <img src="./assets/icn/instagram.svg" class="" alt="">
+              </a>
+              <a href="">
+                <img src="./assets/icn/flickr.svg" class="" alt="">
+              </a>
+              <a href="">
+                <img src="./assets/icn/youtube.svg" class="" alt="">
+              </a>
+            </div>
+            
+            <div class="flex space-x-8">
+              <a href="">Hikes</a>
+              <a href="">Team</a>
+              <a href="">Parthers</a>
+            </div>
+      
+          </div>
+
+          <img src="./assets/logo.png" class="h-12 w-auto mx-auto mt-16 md:mt-24 lg:mt-32" alt="Movement Spontaneous Logo">
+
+        </div>
+    
 
 
   </body>

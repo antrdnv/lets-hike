@@ -1,0 +1,36 @@
+@import url("tachyons.css");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,500,700");
+
+body{
+  font-family: 'Work Sans', sans-serif, Arial;
+  background-color: #000;
+}
+
+.header-video{
+  position: relative;
+  overflow: hidden;
+}
+
+.header-video video{
+  position: absolute;
+  top:0;
+  z-index: -1;
+  min-width:100%;
+  min-height: 100%;
+  opacity: .6;
+  background: url(./img/lets-hike.jpg);
+  background-size:cover;
+}
+
+.header-video h1{
+  position: ;
+}
+
+.thumb-hover{
+  background-size:cover;
+}
+
+.thumb-hover:hover{
+  background-color: #000;
+  background-image: none !important;
+}
