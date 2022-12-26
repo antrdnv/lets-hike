@@ -18,7 +18,7 @@
       <div class="p-0 sm:px-8 md:px-12 flex justify-between items-center">
 
         <a href="./">
-          <img src="./assets/logo.png" class="h-16 w-auto" alt="Movement Spontaneous Logo">
+          <img src="./assets/movement-spontaneous-logo.svg" class="h-8 w-auto" alt="Movement Spontaneous Logo">
         </a>
         
         <div class="flex space-x-8">
@@ -37,7 +37,7 @@
           <h1 class="mx-auto max-w-md">Night hiking and outdoor adventures</h1>
         </div>
 
-        <video class="rounded opacity-60 sticky top-8 md:top-12 lg:top-24 w-full h-auto" autoplay muted loop poster="">
+        <video class="rounded opacity-60 sticky top-8 md:top-12 lg:top-24 w-full h-80 md:h-auto" autoplay muted loop poster="">
           <source src="./assets/header-video.mp4" type="video/mp4">
         </video>
 
@@ -67,7 +67,25 @@
 
         <div class="flex overflow-x-scroll hide-scrollbar space-x-4 px-8 md:px-12 lg:px-24">
 
-          <div class="w-3/4 sm:1/2 md:w-1/3 h-[24rem] lg:h-[32rem] flex-none rounded cursor-pointer bg-cover bg-center bg-black" style="background-image: url('./assets/img/hike-bg-1.jpg');">
+          <div class="w-3/4 sm:1/2 md:w-1/3 h-[24rem] lg:h-[32rem] flex-none rounded cursor-pointer bg-cover bg-center bg-black" style="background-image: url('./assets/hikes/hike-bg-1.jpg');">
+            <div class="flex flex-col justify-between h-full hover:backdrop-blur-xl transition duration-75 p-4 rounded group">
+              <div class="flex flex-col md:flex-row items-start justify-between">
+                <h4 class="mr-4 mb-2">Hike title</h4>
+                <span class="flex-none px-2 py-1 text-xs font-bold bg-[#FFD600] text-black rounded-full">COMING SOON</span>
+              </div>
+              <div class="flex justify-between items-end transition opacity-0 group-hover:opacity-100">
+                <div>
+                  <span>Location</span>
+                  <br>
+                  <span>Date</span>
+                </div>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 4L8.84645 6.98858L17.0114 15.1536L20 4ZM4.70711 20.7071L14.3431 11.0711L12.9289 9.65685L3.29289 19.2929L4.70711 20.7071Z" fill="white"/>
+                </svg> 
+              </div>
+            </div>
+          </div>
+          <div class="w-3/4 sm:1/2 md:w-1/3 h-[24rem] lg:h-[32rem] flex-none rounded cursor-pointer bg-cover bg-center bg-black" style="background-image: url('./assets/hikes/hike-bg-2.jpg');">
             <div class="flex flex-col justify-between h-full hover:backdrop-blur-xl transition duration-75 p-4 rounded group">
               <h4>Hike title</h4>
               <div class="flex justify-between items-end transition opacity-0 group-hover:opacity-100">
@@ -76,28 +94,13 @@
                   <br>
                   <span>Date</span>
                 </div>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M20 4L8.84645 6.98858L17.0114 15.1536L20 4ZM4.70711 20.7071L14.3431 11.0711L12.9289 9.65685L3.29289 19.2929L4.70711 20.7071Z" fill="white"/>
                 </svg>  
               </div>
             </div>
           </div>
-          <div class="w-3/4 sm:1/2 md:w-1/3 h-[24rem] lg:h-[32rem] flex-none rounded cursor-pointer bg-cover bg-center bg-black" style="background-image: url('./assets/img/hike-bg-2.jpg');">
-            <div class="flex flex-col justify-between h-full hover:backdrop-blur-xl transition duration-75 p-4 rounded group">
-              <h4>Hike title</h4>
-              <div class="flex justify-between items-end transition opacity-0 group-hover:opacity-100">
-                <div>
-                  <span>Location</span>
-                  <br>
-                  <span>Date</span>
-                </div>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M20 4L8.84645 6.98858L17.0114 15.1536L20 4ZM4.70711 20.7071L14.3431 11.0711L12.9289 9.65685L3.29289 19.2929L4.70711 20.7071Z" fill="white"/>
-                </svg>  
-              </div>
-            </div>
-          </div>
-          <div class="w-3/4 sm:1/2 md:w-1/3 h-[24rem] lg:h-[32rem] flex-none rounded cursor-pointer bg-cover bg-center bg-black" style="background-image: url('./assets/img/hike-bg-3.jpg');">
+          <div class="w-3/4 sm:1/2 md:w-1/3 h-[24rem] lg:h-[32rem] flex-none rounded cursor-pointer bg-cover bg-center bg-black" style="background-image: url('./assets/placeholder-hike.png');">
             <div class="flex flex-col justify-between h-full hover:backdrop-blur-xl transition duration-75 p-4 rounded group">
               <h4>Hike title</h4>
               <div class="flex justify-between items-end transition opacity-0 group-hover:opacity-100">
@@ -106,13 +109,13 @@
                   <br>
                   <span>Date</span>
                 </div>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M20 4L8.84645 6.98858L17.0114 15.1536L20 4ZM4.70711 20.7071L14.3431 11.0711L12.9289 9.65685L3.29289 19.2929L4.70711 20.7071Z" fill="white"/>
                 </svg>  
               </div>
             </div>
           </div>
-          <div class="w-3/4 sm:1/2 md:w-1/3 h-[24rem] lg:h-[32rem] flex-none rounded cursor-pointer bg-cover bg-center bg-black" style="background-image: url('./assets/img/hike-bg-4.jpg');">
+          <div class="w-3/4 sm:1/2 md:w-1/3 h-[24rem] lg:h-[32rem] flex-none rounded cursor-pointer bg-cover bg-center bg-black" style="background-image: url('./assets/hikes/hike-bg-4.jpg');">
             <div class="flex flex-col justify-between h-full hover:backdrop-blur-xl transition duration-75 p-4 rounded group">
               <h4>Hike title</h4>
               <div class="flex justify-between items-end transition opacity-0 group-hover:opacity-100">
@@ -121,13 +124,13 @@
                   <br>
                   <span>Date</span>
                 </div>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M20 4L8.84645 6.98858L17.0114 15.1536L20 4ZM4.70711 20.7071L14.3431 11.0711L12.9289 9.65685L3.29289 19.2929L4.70711 20.7071Z" fill="white"/>
                 </svg>  
               </div>
             </div>
           </div>
-          <div class="w-3/4 sm:1/2 md:w-1/3 h-[24rem] lg:h-[32rem] flex-none rounded cursor-pointer bg-cover bg-center bg-black" style="background-image: url('./assets/img/hike-bg-1.jpg');">
+          <div class="w-3/4 sm:1/2 md:w-1/3 h-[24rem] lg:h-[32rem] flex-none rounded cursor-pointer bg-cover bg-center bg-black" style="background-image: url('./assets/hikes/hike-bg-3.jpg');">
             <div class="flex flex-col justify-between h-full hover:backdrop-blur-xl transition duration-75 p-4 rounded group">
               <h4>Hike title</h4>
               <div class="flex justify-between items-end transition opacity-0 group-hover:opacity-100">
@@ -136,7 +139,7 @@
                   <br>
                   <span>Date</span>
                 </div>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M20 4L8.84645 6.98858L17.0114 15.1536L20 4ZM4.70711 20.7071L14.3431 11.0711L12.9289 9.65685L3.29289 19.2929L4.70711 20.7071Z" fill="white"/>
                 </svg>  
               </div>
@@ -182,7 +185,7 @@
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-8 sm:gap-8 mt-16 md:mt-24 lg:mt-32">
 
               <div class="flex space-x-2 sm:space-x-4 items-center">
-                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <img src="./assets/placeholder-team.png" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
                 <div class="">
                   <span class="font-bold">Full Name</span>
                   <br>
@@ -190,7 +193,7 @@
                 </div>
               </div>
               <div class="flex space-x-2 sm:space-x-4 items-center">
-                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <img src="./assets/placeholder-team.png" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
                 <div class="">
                   <span class="font-bold">Full Name</span>
                   <br>
@@ -198,7 +201,7 @@
                 </div>
               </div>
               <div class="flex space-x-2 sm:space-x-4 items-center">
-                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <img src="./assets/placeholder-team.png" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
                 <div class="">
                   <span class="font-bold">Full Name</span>
                   <br>
@@ -206,7 +209,7 @@
                 </div>
               </div>
               <div class="flex space-x-2 sm:space-x-4 items-center">
-                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <img src="./assets/placeholder-team.png" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
                 <div class="">
                   <span class="font-bold">Full Name</span>
                   <br>
@@ -214,7 +217,7 @@
                 </div>
               </div>
               <div class="flex space-x-2 sm:space-x-4 items-center">
-                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <img src="./assets/placeholder-team.png" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
                 <div class="">
                   <span class="font-bold">Full Name</span>
                   <br>
@@ -222,7 +225,7 @@
                 </div>
               </div>
               <div class="flex space-x-2 sm:space-x-4 items-center">
-                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <img src="./assets/placeholder-team.png" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
                 <div class="">
                   <span class="font-bold">Full Name</span>
                   <br>
@@ -230,7 +233,7 @@
                 </div>
               </div>
               <div class="flex space-x-2 sm:space-x-4 items-center">
-                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <img src="./assets/placeholder-team.png" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
                 <div class="">
                   <span class="font-bold">Full Name</span>
                   <br>
@@ -238,7 +241,7 @@
                 </div>
               </div>
               <div class="flex space-x-2 sm:space-x-4 items-center">
-                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <img src="./assets/placeholder-team.png" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
                 <div class="">
                   <span class="font-bold">Full Name</span>
                   <br>
@@ -246,7 +249,7 @@
                 </div>
               </div>
               <div class="flex space-x-2 sm:space-x-4 items-center">
-                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <img src="./assets/placeholder-team.png" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
                 <div class="">
                   <span class="font-bold">Full Name</span>
                   <br>
@@ -254,7 +257,7 @@
                 </div>
               </div>
               <div class="flex space-x-2 sm:space-x-4 items-center">
-                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <img src="./assets/placeholder-team.png" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
                 <div class="">
                   <span class="font-bold">Full Name</span>
                   <br>
@@ -262,7 +265,7 @@
                 </div>
               </div>
               <div class="flex space-x-2 sm:space-x-4 items-center">
-                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <img src="./assets/placeholder-team.png" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
                 <div class="">
                   <span class="font-bold">Full Name</span>
                   <br>
@@ -270,7 +273,7 @@
                 </div>
               </div>
               <div class="flex space-x-2 sm:space-x-4 items-center">
-                <img src="./assets/team/1.jpg" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
+                <img src="./assets/placeholder-team.png" alt="" class="h-12 sm:h-16 w-12 sm:w-16 flex-none rounded-full">
                 <div class="">
                   <span class="font-bold">Full Name</span>
                   <br>
@@ -293,49 +296,49 @@
     
             <div class="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 mt-16 md:mt-24 lg:mt-32">
               <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
-                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+                <img src="./assets/placeholder-partner.png" alt="" class="w-full max-w-16 h-auto">
               </div>
               <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
-                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+                <img src="./assets/placeholder-partner.png" alt="" class="w-full max-w-16 h-auto">
               </div>
               <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
-                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+                <img src="./assets/placeholder-partner.png" alt="" class="w-full max-w-16 h-auto">
               </div>
               <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
-                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+                <img src="./assets/placeholder-partner.png" alt="" class="w-full max-w-16 h-auto">
               </div>
               <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
-                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+                <img src="./assets/placeholder-partner.png" alt="" class="w-full max-w-16 h-auto">
               </div>
               <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
-                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+                <img src="./assets/placeholder-partner.png" alt="" class="w-full max-w-16 h-auto">
               </div>
               <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
-                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+                <img src="./assets/placeholder-partner.png" alt="" class="w-full max-w-16 h-auto">
               </div>
               <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
-                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+                <img src="./assets/placeholder-partner.png" alt="" class="w-full max-w-16 h-auto">
               </div>
               <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
-                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+                <img src="./assets/placeholder-partner.png" alt="" class="w-full max-w-16 h-auto">
               </div>
               <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
-                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+                <img src="./assets/placeholder-partner.png" alt="" class="w-full max-w-16 h-auto">
               </div>
               <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
-                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+                <img src="./assets/placeholder-partner.png" alt="" class="w-full max-w-16 h-auto">
               </div>
               <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
-                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+                <img src="./assets/placeholder-partner.png" alt="" class="w-full max-w-16 h-auto">
               </div>
               <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
-                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+                <img src="./assets/placeholder-partner.png" alt="" class="w-full max-w-16 h-auto">
               </div>
               <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
-                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+                <img src="./assets/placeholder-partner.png" alt="" class="w-full max-w-16 h-auto">
               </div>
               <div class="flex items-center justify-center p-4 sm:p-8 rounded bg-white/5">
-                <img src="./assets/partner/1.png" alt="" class="w-full max-w-16 h-auto">
+                <img src="./assets/placeholder-partner.png" alt="" class="w-full max-w-16 h-auto">
               </div>
             </div>
 
